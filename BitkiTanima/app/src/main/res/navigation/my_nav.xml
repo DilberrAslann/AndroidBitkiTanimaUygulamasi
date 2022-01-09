@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/anasayfa">
+    <fragment
+        android:id="@+id/anasayfa"
+        android:name="com.merveyilmaz.bitkitanima.anasayfa"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+    <fragment
+        android:id="@+id/blog"
+        android:name="com.merveyilmaz.bitkitanima.blog"
+        android:label="fragment_blog"
+        tools:layout="@layout/fragment_blog" />
+    <fragment
+        android:id="@+id/kamera"
+        android:name="com.merveyilmaz.bitkitanima.kamera"
+        android:label="fragment_kamera"
+        tools:layout="@layout/fragment_kamera" />
+    <fragment
+        android:id="@+id/bahcem"
+        android:name="com.merveyilmaz.bitkitanima.bahcem"
+        android:label="fragment_bahcem"
+        tools:layout="@layout/fragment_bahcem" />
+    <fragment
+        android:id="@+id/profil"
+        android:name="com.merveyilmaz.bitkitanima.profil"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfa"
+        android:icon="@drawable/anasayfalogo"
+        android:title="Anasyafa" />
+
+    <item android:title="Blog"
+        android:icon="@drawable/bloglogo"
+        android:id="@+id/blog"/>
+
+    <item android:title="Kamera"
+        android:icon="@drawable/kameralogo"
+        android:id="@+id/kamera"/>
+
+    <item
+        android:id="@+id/bahcem"
+        android:icon="@drawable/bahcemlogo"
+        android:title="Bahçem" />
+
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/logo2"
+        android:title="Profil" />
+
+</menu>

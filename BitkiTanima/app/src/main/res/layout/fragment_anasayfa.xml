@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".anasayfa"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/font3"
+        android:text="Karadeniz Yoresindeki Bitkiler"
+        android:textColor="@color/buttonColor"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="58dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+            <ImageView
+                android:id="@+id/andirahnaImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/andirahna"
+                tools:srcCompat="@drawable/andirahna" />
+
+            <ImageView
+                android:id="@+id/cevizImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ceviz"
+                tools:srcCompat="@drawable/ceviz" />
+
+            <ImageView
+                android:id="@+id/cayImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cay"
+                tools:srcCompat="@drawable/cay" />
+
+            <TextView
+                android:id="@+id/andirahnaText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Andirahna"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/cevizText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Ceviz"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/cayText"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Cay"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/cuhaImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cuha"
+                tools:srcCompat="@drawable/cuha" />
+
+            <ImageView
+                android:id="@+id/findikImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/findik"
+                tools:srcCompat="@drawable/findik" />
+
+            <ImageView
+                android:id="@+id/haniftaImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/hanifta"
+                tools:srcCompat="@drawable/hanifta" />
+
+            <TextView
+                android:id="@+id/cuhaText"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Cuha"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/findikText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Findik"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/haniftaText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Hanifta"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ihlamurImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ihlamur"
+                tools:srcCompat="@drawable/ihlamur" />
+
+            <ImageView
+                android:id="@+id/karahindibaImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="4"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/karahindiba"
+                tools:srcCompat="@drawable/karahindiba" />
+
+            <ImageView
+                android:id="@+id/karayemisImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="4"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/karayemis"
+                tools:srcCompat="@drawable/karayemis" />
+
+            <TextView
+                android:id="@+id/ihlmurText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Ihlamur"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/karahindibaText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Karahindiba"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/karayemisText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="5"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Karayemis"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/kardelenImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kardelen"
+                tools:srcCompat="@drawable/kardelen" />
+
+            <ImageView
+                android:id="@+id/kizilcikImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kizilcik"
+                tools:srcCompat="@drawable/kizilcik" />
+
+            <ImageView
+                android:id="@+id/uzumImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="6"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kuzum"
+                tools:srcCompat="@drawable/kuzum" />
+
+            <TextView
+                android:id="@+id/kardelenText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Kardelen"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/kizilcikText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="7"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Kizilcik"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/uzumText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="7"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Kokulu &#10; Uzum"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/komarImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/komar"
+                tools:srcCompat="@drawable/komar" />
+
+            <ImageView
+                android:id="@+id/kusburnuImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="8"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kusburnu"
+                tools:srcCompat="@drawable/kusburnu" />
+
+            <ImageView
+                android:id="@+id/ligarbaImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="8"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ligarba"
+                tools:srcCompat="@drawable/ligarba" />
+
+            <TextView
+                android:id="@+id/komarText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Komar"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/kusburnuText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="9"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Kusburnu"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ligarbaText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="9"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Ligarba"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/manisakImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/manisak"
+                tools:srcCompat="@drawable/manisak" />
+
+            <ImageView
+                android:id="@+id/moraImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="10"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mora"
+                tools:srcCompat="@drawable/mora" />
+
+            <ImageView
+                android:id="@+id/incirImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="10"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pincir"
+                tools:srcCompat="@drawable/pincir" />
+
+            <TextView
+                android:id="@+id/manisakText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Manisak"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/moraText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="11"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Mora"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/incirText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="11"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Patlican &#10;İnciri"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/siklamenImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/siklamen"
+                tools:srcCompat="@drawable/siklamen" />
+
+            <ImageView
+                android:id="@+id/hurmaImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="12"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/thurma"
+                tools:srcCompat="@drawable/thurma" />
+
+            <ImageView
+                android:id="@+id/vargitImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="12"
+                android:layout_column="2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vargit"
+                tools:srcCompat="@drawable/vargit" />
+
+            <TextView
+                android:id="@+id/siklamenText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="13"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Siklamen"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/hurmaText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="13"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Trabzon &#10;Hurmasi"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/vargitText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="13"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Vargit"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/zifinImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="14"
+                android:layout_column="0"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/zifin"
+                tools:srcCompat="@drawable/zifin" />
+
+            <TextView
+                android:id="@+id/zifinText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_row="17"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font2"
+                android:padding="5dp"
+                android:text="Zifin"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </GridLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

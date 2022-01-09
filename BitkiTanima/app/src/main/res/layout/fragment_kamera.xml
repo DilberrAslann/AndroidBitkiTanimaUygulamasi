@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".kamera">
+
+    <ImageView
+        android:id="@+id/kameraAcImage"
+        android:layout_width="249dp"
+        android:layout_height="204dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="81dp"
+        android:src="@drawable/kameralogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fotoSecImage"
+        android:layout_width="293dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/galeri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kameraAcImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
