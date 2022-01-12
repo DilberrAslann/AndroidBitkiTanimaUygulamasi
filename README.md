@@ -1,3 +1,3 @@
-# Açıklama
-## Açıklama
+# Bitki Tanıma Uygulaması
+## Uygulama hakkında
 ---
