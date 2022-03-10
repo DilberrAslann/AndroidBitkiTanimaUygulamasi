@@ -16,35 +16,71 @@ Uygulamamız Android cihazlarda çalışır ve bitkiler hakkında bilgi edinme, 
 Uygulamamız ilk açıldığında kullanıcı giriş sayfası açılmaktadır. Eğer kullanıcı daha önceden kayıt olmuş ise buradan kullanıcı bilgileriyle giriş yapabilir. Eğer kullanıcı kayıtlı değil ise kayıt ol butonuna tıklayarak ve istenilen bilgileri doldurarak uygulamaya kayıt olabilmektedir. Kullanıcı giriş yaptıktan sonra kullanıcıyı hoşgeldiniz ekranı karşılar. Buradan ise anasayfaya geçiş yapılır. Anasayfada bulunan bitki görselleri üzerine tıklanarak detaylı bilgi edinebilmek için bitki bilgi sayfasına yönlendirilir. Bitki bilgi sayfasında bitkinin görseli ve hakkında detaylı bilgiye ulaşılabilir. Blog sayfasında tüm kullanıcıların paylaştığı gönderiler görülebilir. Kullanıcı profil sayfasında blog sayfasına eklediği gönderilerin listesini görebilir. Buradan gönderi ekle butonuna tıklayarak, bloğuna gönderi ekleyebilir, ayarlar butonuna tıklayarak ise ayarlar sayfasına ulaşabilir. Kullanıcı, ayarlar sayfasında profil resmi seçebilir ve oturumunu sonlandırabilir.
 
 
+
 ## Uygulamadan Ekran Görüntüleri
 
 **Giriş Ekranı**
 
-![sdfg](https://r.resimlink.com/2sRG.png)
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiMQrM.png" />
+
+-------------------------------------------
+
+**Kayıt Ol Ekranı**
+
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiMdsI.png" />
 
 -------------------------------------------
 
 **Hoşgeldiniz Ekranı**
 
-![sdfg](https://r.resimlink.com/i3DNR.png)
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZVds.png" />
 
 -----------------------------------------
 
 **Anasayfa Ekranı**
 
-![sdfg](https://r.resimlink.com/Aldz9fK.png)
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZCSR.png" />
 
 ------------------------------------------
 
-**Bitki Bilgi Sayfası**
+**Bitki Bilgi Sayfası** 
 
-![sdfg](https://r.resimlink.com/NVcJ.png)
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZSse.png" />
 
 --------------------------------------------
 
-**Blog Sayfası**
+**Blog Sayfası** 
 
-![sdfg](https://r.resimlink.com/nJ8rVgRU.png)
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZN96.png" />
+
+--------------------------------------------
+
+**Kamera Okutma Sayfası**
+
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZjSp.png" />
+
+--------------------------------------------
+
+**Bahçem Sayfası**
+
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZcFM.png" />
+
+--------------------------------------------
+
+ **Fotoğraf Yükleme Sayfası**
+
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZDao.png" />
+
+--------------------------------------------
+
+**Ayarlar Sayfası**
+
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZGzU.png" />
+
+--------------------------------------------
+**Kullanıcı Profili Seçme Sayfası**
+
+<img height="400" src="https://imgyukle.com/f/2022/03/09/EiZ1B1.png" />
 
 --------------------------------------------
 *Bu uygulamayı ben dahil 3 kişi (Merve Yılmaz, Burcu Bıyık), Avrasya Üniversitesi Bilgisayar Mühendisliği bölümünde bitirme projesi olarak yaptık.*
